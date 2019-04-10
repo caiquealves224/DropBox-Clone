@@ -1,7 +1,7 @@
+const BoxController = require("./controllers/BoxController")
 const express = require("express");
-
 const router = express.Router();
 
-router.get("/", (req,res) => res.send("Hello WOrld"))
+router.post("/", BoxController.store )
 
 module.exports = router;
