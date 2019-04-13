@@ -13,7 +13,7 @@ module.exports = {
             crypto.randomBytes(16,(error,hash) => {
                 if (error) callback(error);
 
-                file.key = `${hash.ToString("hex")} - ${file.originalname}`;
+                file.key = `${hash.toString("hex")} - ${file.originalname}`;
                 callback(null,file.key);
             })
         }

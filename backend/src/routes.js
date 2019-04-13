@@ -1,5 +1,5 @@
 const BoxController = require("./controllers/BoxController")
-const FileController = require("./controllers/FileCOntroller");
+const FileController = require("./controllers/FileController");
 const multerConfig = require("./config/multer");
 const multer = require("multer");
 
