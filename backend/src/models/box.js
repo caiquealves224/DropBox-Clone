@@ -2,7 +2,7 @@ const Mongoose = require("mongoose");
 
 const Box = new Mongoose.Schema({
     title: { 
-        type: string,
+        type: String,
         required : true
     },
     files : [{ type: Mongoose.Schema.Types.ObjectId, ref : "file"}],

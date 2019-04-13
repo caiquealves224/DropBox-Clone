@@ -2,7 +2,7 @@ const Mongoose = require("mongoose");
 
 const Files = new Mongoose.Schema({
     title: { 
-        type: string,
+        type: String,
         required : true
     },
     path : {
